@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Transport_udara">
+    <!-- bg_home -->
+    <View
+        android:id="@+id/bg_home"
+        android:layout_width="420dp"
+        android:layout_height="356dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@drawable/bg_home" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- back -->
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="9dp"
+            android:layout_height="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/vector" />
+        <!-- TRANSPORTASI udara-->
+        <TextView
+            android:id="@+id/transport_udara"
+            android:layout_width="232dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Transportasi Udara"
+            android:textAllCaps="true"
+            android:textColor="@color/transport"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content">
+            <!-- helikopter -->
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btn_helikopter"
+                    android:background="@drawable/helikopter"
+                    android:layout_marginRight="0dp"
+                    android:padding="5dp"
+                    android:layout_width="135dp"
+                    android:layout_height="98dp" />
+            </RelativeLayout>
+            <!-- garuda -->
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btn_garuda"
+                    android:background="@drawable/garuda"
+                    android:layout_marginRight="0dp"
+                    android:padding="5dp"
+                    android:layout_width="135dp"
+                    android:layout_height="98dp" />
+            </RelativeLayout>
+            <!-- pesawatlatihpk -->
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btn_latihpk"
+                    android:background="@drawable/pesawat2"
+                    android:layout_marginRight="0dp"
+                    android:padding="5dp"
+                    android:layout_width="135dp"
+                    android:layout_height="98dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <!-- pesawat latih air -->
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btn_latihair"
+                    android:background="@drawable/capung"
+                    android:layout_marginRight="0dp"
+                    android:padding="5dp"
+                    android:layout_width="135dp"
+                    android:layout_height="98dp" />
+            </RelativeLayout>
+            <!-- pesawatdakota -->
+            <RelativeLayout
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btn_pesawatdakota"
+                    android:background="@drawable/pesawatdakot"
+                    android:layout_marginRight="0dp"
+                    android:padding="5dp"
+                    android:layout_width="135dp"
+                    android:layout_height="98dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

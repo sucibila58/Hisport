@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Hisport</string>
+    <!-- strings.xml -->
+    <string name="text_vespa">
+    Vespa berasal dari bahasa Italia wesp yang artinya binatang
+        penyengat, lebah. Kendaraan ini muncul karena
+        didorong oleh keinginan Piaggio dalam menciptakan produk
+        berbiaya rendah yang memfokuskan pada mobilitas personal masyarakat. Sepeda motor
+        buatan Italia tahun 1951 ini beroperasi di Indonesia, khsusnya Pulau Jawa, sekitar
+        tahun 1960-an. Bagi sebagian besar penggunanya, Vespa adalah simbol dari kenyamanan
+        dan keamanan.
+    </string>
+    <string name="text_busdamri">
+Bus Kota Damri Merupakan bus buatan Tata, India tahun 1977 yang difungsikan sebagai
+angkutan penumpang dalam kota dan beroperasi dijalur Cicaheum – Cibeureum.
+Bus bernomor polisi D 1384 WY yang dikelola oleh DAMRI (Djawatan Angkoetan Motor Repoeblik Indonesia)
+        ini menggunakan bahan bakar solar dan bertenaga
+penggerak mesin motor tipe LP. 1210 E. Bus kota buatan Tata beroperasi di tiga
+kota di Indonesia, yaitu Surabaya, Semarang, dan Bandung mulai tahun 1978 hingga menjelang tahun 90-an
+    </string>
+    <string name="text_becak">
+Becak adalah alat transportasi tradisional beroda tiga yang paling popular di
+Indonesia. Umumnya becak-becak tersebut dikenal dengan bentuk dan nama yang
+berbeda. Becak Bandung adalah jenis becak yang pengemudinya ada dibelakang,
+jenis becak yang umumnya ada di Pulau Jawa. Becak Bandung memiliki bentuk
+yang agak berbeda dengan becak-becak lainnya di Indonesia, yaitu lebih ramping
+dan kecil. Penutup roda (slebor), sandaran kursi, serta atap becak berwarna cerah
+karena dihiasi dengan beragam lukisan dan asesoris yang tidak hanya berfungsi
+praktis tapi juga dekoratif.
+    </string>
+    <string name="text_Motor">
+Sepeda motor Honda 70cc berwarna merah dan sayap putih dengan plat
+nomor kendaraan D 3197 VA ini memulai beroperasi secara resmi pada tanggal 1
+Juni 1976 di Indonesia. Honda 70 cc merupakan salah satu varian dari Honda Super
+Club yang kemudian dikenal sebagai motor bebek yang sangat popular dimasanya.
+Sepeda motor ini memiliki harga terjangkau dan mudah dikendarai oleh siapapun.
+Perempuan pun dapat mengendarai sepeda motor ini dan tidak perlu terhambat oleh
+bentuk konvensional sepeda motor yang memiliki tangki bensin dibagian depan.
+    </string>
+    <string name="text_Bemo">
+Kendaraan mobil sedan merek Morris Minor buatan inggris ini yaitu
+angkutan umum yang telah dimodifikasi menjadi dua bagian, yaitu bagian untuk
+supir dan penumpang yang dilengkapi dengan pintu samping, sereta bagian untuk
+penumpang yang dilengkapi dengan satu pintu dibagian belakang kendaraan. Lantai
+dan rangka jendela oplet dibuat dari kayu, sedangkan atapnya dibuat dari seng
+dengan rangka kayu. Jendela kayu tersebut dibuat dari penutup kaca yang dapat
+dinaik-turunkan.
+    </string>
+    <string name="text_Kereta">
+Merupakan lokomotif jarak jauah buatan Fried Krupp, Essen, Jerman tahun 1950. Beroperasi di lintas Jakarta-Surabaya dari tahun 1950 sampai 1985. Berbahan 57
+bakar minyak diesel (MDF, Marine Diesel Fuel atau IDO, Industrial Diesel Oil),
+yaitu hasil penyulingan minyak yang berwarna hitam dan berbentuk cair pada
+temperatur rendah. Lokomotif D.52099 dipakai untuk menarik kereta api barang
+jarak jauh rangkaian panjang dan kereta api ekspres jarah jauh.
+    </string>
+    <string name="text_pesawatdakota">
+Pesawat terbang berjenis Douglas C.47 bernomor registrasi RI-001 ini
+adalah pesawat terbang pertama yang dimiliki oleh Indonesia yang dibeli dari hasil
+pengumpulan dana Dakota (Dakota Fund) ketika Presiden Soekarno berpidato
+tanggal 16 Juni 1948 di Aceh Hotel, Kutaraja.
+Pidato tersebut telah berhasil
+menguunggah semangat nasionalisme rakyat Sumatera, khususnya Aceh dengan
+dikumpulkannya dana sebesar 120.000 dollar Singapura dan 20 kg emas dari para
+saudagar Aceh. Pesawat Dakota RI-001 sumbangan rakyat Aceh ini kemudian
+diberi nama Seulawah, yang berarti Gungng Emas adalah nama yang diberikan oleh
+Presiden Soekarno pada pesawat yang dikemudian hari menjelma menjadi kekuatan
+pertama armada TNI-AU yang telah berjasa besar menerobos blokade Belanda ini.
+    </string>
+    <string name="text_garuda">
+Pesawat Garuda Indonesia jenis DC 9 PK GNT buatan USA tahun 1979
+pernah beroperasi ke negara-negara Asean dan Australia. Pada tahun-tahun awal
+        maskapai ini beroperasi, pesawat Garuda diterbangkan oleh pilot-pilot KLM karena pada waktu
+        itu belum ada tenaga pilot dan teknisi bangsa Indonesia. Mulai tahun 1951, Garuda Indonesian
+        Airways merekrut calon penerbang anak bangsa untuk mengikuti pendidikan penerbang.
+    </string>
+    <string name="text_capung">
+Pesawat latih jenis Airtourer TG.24 beregistrasi PK-ATV ini digunakan
+sebagai sarana latihan terbang para taruna jurusan penerbangan di Pendidikan dan
+Latihan Penerbangan (PLP) Curug milik Kementrian Perhubungan dari tahun 1971
+sampai 1978 untuk penerbangan angkatan XIV dan XV. Pesawat bermesin tunggal jenis piston low wing ini digunakan
+        oleh penerbang wanita pertama Indonesia bernama Indah Yuliani dari angkatan XXVIII pada tahun 1977 sampai 1979.
+    </string>
+    <string name="text_helikopter">
+Merupakan helikopter Badan SAR Nasional (Basarnas) yang di produksi
+PT. Nurtanio, sekarang bernama PT. Dirgantara Indonesia. Helikopter model NBO
+105 CB yang dibuat di Bandung tahun 1982 ini, digunakan untuk latihan SAR serta
+dalam setiap operasi pencarian (search) dan pertolongan (rescue) (SAR), mencari korban yang hilang atau melalui jalur udara saat terjadi musibah pelayaran, penerbangan, bencana serta musibah lainnya di daerah rawan bencana. Terdapat
+logo SAR Nasional di kedua sisi helikopter yang berbunyi Avignam Jagat
+Samagram (Semoga Semangatlah Alam Semesta).
+    </string>
+    <string name="text_pesawat2">
+Pesawat Latih Merupakan pesawat jenis Beechrat Musketeer B.19A buatan Amerika
+Serikat tahun 1990. Berfungsi untuk melatih para taruna jurusan penerbangan
+sebagai sarana latihan terbang di Sekolah Tinggi Ilmu Penerbangan (STIP) Curug,
+Tanggerang, milik Kementrian Perhubungan, dari tahun 1970 sampai 1978.
+    </string>
+    <string name="text_kapalkomodo">
+KM. Komodo merupakan kapal motor penyebrangan pertama yang digunakan
+untuk menunjang pariwisata menuju Pulau Komodo. Kapal feri ini juga digunakan
+untuk mengangkut penumpang dan kendaraan. Kapal motor ini beroperasi mulai
+tahun 1981 dengan daerah operasional Sape (Sumbawa, NTB)-Pulau Komodo NTT
+– Labuan Bajo (Flores, NTT).
+    </string>
+    <string name="text_kapalpatroli">
+Kapal Negara B-013 (KN. B-013) buatan New Orleans, Amerika Serikat
+tahun 1945. Merupakan kapal patroli Belanda yang beroperasi di Kepulauan Riau
+saat Agresi Militer Belanda ke-II. Pada tahun 1952, kapal ini dipindahkan ke Bengkalis di bawah pengawasan
+        Syah bandar Bengkalis untuk membantu tugas-tugas Pemda atau Bupati Bengkalis sampai dengan tahun 1962.
+    </string>
+    <string name="text_perahubanjar">
+    Perahu Banjar atau Perahu Tambangan adalah perahu khas masyarakat Suku
+    Banjar, Kalimantan Selatan yang saat ini sudah jarang ditemui. Perahu berwarna
+    hitam ini memiliki atap (kubung) benbentuk melengkung yang dibuat dari anyaman
+    daun nipah. Dibagian dalam perahu terdapat kotak berwarna hitam yang digunakan
+    sebagai tempat untuk menyimpan uang hasil berdagang atau benda berharga
+    lainnya. Bahan baku yang digunakan untuk membuat perahu ini adalah Kayu Ulin,
+    jenis kayu lokal yang diambil dari hutan-hutan disepanjang aliran sungai besar di
+    kawasan Kalimantan Selatan. Perahu ini umumnya dijumpai di Pasar Terapung di
+    Sungai Barito.
+    Pasar Terapung adalah Pasar Tradisional masyarakat Banjar yang
+    juga menjadi ciri khas dari kota Banjarmsin. Di tempat ini para pedagang dan
+    pembeli melakukan aktifitas jual-beli baik berupa sayur mayur, lauk pauk, buah-buahan, makanan ringan, hingga restoran terapung.
+    </string>
+</resources>

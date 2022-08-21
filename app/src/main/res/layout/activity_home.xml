@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+    <!-- bg_home -->
+    <View
+        android:id="@+id/bg_home"
+        android:layout_width="420dp"
+        android:layout_height="356dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@drawable/bg_home" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:layout_gravity="center"
+            android:paddingEnd="5dp">
+            <!-- btnprofil-->
+            <ImageButton
+                android:id="@+id/btnlogout"
+                android:layout_width="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/user" />
+        </LinearLayout>
+        <!-- logo -->
+        <View
+            android:id="@+id/logo"
+            android:layout_width="141dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/hisport" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Apa yang anda ingin ketahui?"
+            android:layout_gravity="center"/>
+    <!-- btn_darat -->
+    <Button
+        android:id="@+id/btn_darat"
+        android:layout_width="248dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Transportasi darat"/>
+    <!-- btn_Laut -->
+        <Button
+            android:id="@+id/btn_laut"
+            android:layout_width="248dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Transportasi laut"/>
+    <!-- btn_Udara -->
+        <Button
+            android:id="@+id/btn_udara"
+            android:layout_width="248dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Transportasi udara"/>
+    </LinearLayout>
+</RelativeLayout>

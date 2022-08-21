@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|center_vertical"
+    tools:context=".Bus">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/buttonBack"
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/vector" />
+
+            <TextView
+                android:id="@+id/Judul_bus"
+                android:layout_width="232dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:elegantTextHeight="false"
+                android:gravity="center"
+                android:text="Bus Damri"
+                android:textAllCaps="true"
+                android:textColor="@color/transport"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/bus2"
+                android:layout_width="276dp"
+                android:layout_height="176dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bus"
+                android:elevation="4dp" />
+
+            //card info
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="320dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/blueprimary">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginEnd="20dp"
+                        android:lineSpacingExtra="5dp"
+                        android:text="@string/text_busdamri"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textAlignment="center"/>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+
+            // akhir card info
+        </LinearLayout>
+</RelativeLayout>

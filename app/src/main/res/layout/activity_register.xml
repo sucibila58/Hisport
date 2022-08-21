@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register">
+    <!-- logo -->
+    <View
+        android:id="@+id/logoregister"
+        android:layout_width="170dp"
+        android:layout_height="231dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:background="@drawable/registrasi" />
+    <!-- Register-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <!-- Nama -->
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+    <!-- Password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <!-- confirm Password -->
+    <EditText
+        android:id="@+id/etconPw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+    <!-- buttonregister-->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="194dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:layout_marginTop="25dp" />
+    <!-- back to login -->
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have an account? Login"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>

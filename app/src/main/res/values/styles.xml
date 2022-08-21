@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      Font family: Nunito
+      Line height: 16sp
+    -->
+    <!-- styles.xml -->
+    <style name="text1">
+    <item name="android:textSize">
+        12sp
+    </item>
+    <item name="android:textColor">
+        #FFFDFD
+    </item>
+    </style>
+
+</resources>
